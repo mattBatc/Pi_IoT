@@ -19,6 +19,7 @@ using System.Threading.Tasks;
 namespace IoT
 {
     //TODO Add forecast functionality
+    //TODO Add weather icons based off weather ID, HTML page in Programming folder
     public sealed partial class MainPage : Page
     {
         public MainPage()
