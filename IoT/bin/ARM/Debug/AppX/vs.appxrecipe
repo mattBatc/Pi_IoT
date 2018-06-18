@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-18T18:31:50.014</Modified>
+      <Modified>2018-06-18T21:11:07.775</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\IoT.exe">
       <PackagePath>entrypoint\IoT.exe</PackagePath>
-      <Modified>2018-06-18T18:31:49.779</Modified>
+      <Modified>2018-06-18T21:11:05.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -556,11 +556,11 @@
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-18T18:28:13.633</Modified>
+      <Modified>2018-06-18T21:11:07.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Core\IoT.exe">
       <PackagePath>IoT.exe</PackagePath>
-      <Modified>2018-06-18T18:31:50.011</Modified>
+      <Modified>2018-06-18T21:11:07.767</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
