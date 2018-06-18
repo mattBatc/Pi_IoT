@@ -18,6 +18,7 @@ using System.Threading.Tasks;
 
 namespace IoT
 {
+    //TODO Add forecast functionality
     public sealed partial class MainPage : Page
     {
         public MainPage()
@@ -30,7 +31,7 @@ namespace IoT
 
        private async void getWeather()
         {
-            RootObject myWeather = await WeatherGetter.GetWeather();
+            RootObject myWeather = await CurrentWeather.GetWeather();
             WelWeather.Text = "It is currently " + Math.Round((((myWeather.main.temp - 273) * 1.8) +32))+ " degrees outside";
         }
     }

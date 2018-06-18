@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 
 namespace IoT.Factory
 {
-    public class WeatherGetter
+    public class CurrentWeather
     {
         public async static Task<RootObject> GetWeather()
         {
@@ -109,7 +109,7 @@ namespace IoT.Factory
         [DataMember]
         public Coord coord { get; set; }
         [DataMember]
-        public List<WeatherGetter> weather { get; set; }
+        public List<CurrentWeather> weather { get; set; }
         [DataMember]
         public string @base { get; set; }
         [DataMember]

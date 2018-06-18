@@ -95,7 +95,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Factory\WeatherGetter.cs" />
+    <Compile Include="Factory\CurrentWeather.cs" />
+    <Compile Include="Factory\Forecast.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
