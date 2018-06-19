@@ -211,3 +211,4 @@ E:\Documents\Programming\IOT\IoT\IoT\obj\ARM\Debug\qualifiers.txt.intermediate
 E:\Documents\Programming\IOT\IoT\IoT\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Documents\Programming\IOT\IoT\IoT\obj\ARM\Debug\ProjectArchitectures.txt
 E:\Documents\Programming\IOT\IoT\IoT\obj\ARM\Debug\IoT.csprojResolveAssemblyReference.cache
+E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\DarkSkyApi.dll

@@ -10,9 +10,11 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Dark">
         <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
             <TextBlock x:Name="WelDate" RequestedTheme="Default" FontFamily="HelveticaNeue" FontSize="24" />
-            <TextBlock x:Name="WelWeather" RequestedTheme="Default" FontFamily="HelveticaNeue" FontSize="24" Height="251" Width="370"/>
+            
         </StackPanel>
-        
-        
+        <TextBlock x:Name="RightTemp" RequestedTheme="Default" FontFamily="HelveticaNeue" FontSize="60" Height="200" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,80,0,0" />
+        <Image x:Name="WeatherIcon" HorizontalAlignment="Right" Height="150" VerticalAlignment="Top" Width="150" Margin="0,60,225,0" Source="uri"/>
+        <TextBlock x:Name="testing" HorizontalAlignment="Left" Height="369" Margin="225,417,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="1161"/>
+
     </Grid>
 </Page>

@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\IoT.exe">
       <PackagePath>entrypoint\IoT.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\.nuget\packages\darkskyapi\3.3.0\lib\netstandard1.1\DarkSkyApi.dll">
+      <PackagePath>DarkSkyApi.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -379,8 +382,38 @@
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Fonts\weathericons-regular-webfont.ttf">
       <PackagePath>Assets\Fonts\weathericons-regular-webfont.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\cloudy.png">
+      <PackagePath>Assets\Icons\cloudy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\fog.png">
+      <PackagePath>Assets\Icons\fog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\lightning.png">
+      <PackagePath>Assets\Icons\lightning.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\night.png">
+      <PackagePath>Assets\Icons\night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\partly-cloudy-night.png">
+      <PackagePath>Assets\Icons\partly-cloudy-night.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\partly-cloudy.png">
+      <PackagePath>Assets\Icons\partly-cloudy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\rain.png">
+      <PackagePath>Assets\Icons\rain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\sleet.png">
+      <PackagePath>Assets\Icons\sleet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\snow.png">
+      <PackagePath>Assets\Icons\snow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\sunny.png">
+      <PackagePath>Assets\Icons\sunny.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\windy.png">
+      <PackagePath>Assets\Icons\windy.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -408,6 +441,9 @@
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\IoT.xr.xml">
       <PackagePath>IoT.xr.xml</PackagePath>

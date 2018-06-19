@@ -31,13 +31,17 @@
     <AppXManifest Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-18T21:11:07.775</Modified>
+      <Modified>2018-06-19T06:25:53.767</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\IoT.exe">
       <PackagePath>entrypoint\IoT.exe</PackagePath>
-      <Modified>2018-06-18T21:11:05.648</Modified>
+      <Modified>2018-06-19T06:25:53.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\.nuget\packages\darkskyapi\3.3.0\lib\netstandard1.1\DarkSkyApi.dll">
+      <PackagePath>DarkSkyApi.dll</PackagePath>
+      <Modified>2017-12-05T02:52:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -507,9 +511,49 @@
       <PackagePath>Assets\Fonts\weathericons-regular-webfont.ttf</PackagePath>
       <Modified>2018-06-18T15:02:56.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-06-18T15:27:01.168</Modified>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\cloudy.png">
+      <PackagePath>Assets\Icons\cloudy.png</PackagePath>
+      <Modified>2018-06-19T04:17:11.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\fog.png">
+      <PackagePath>Assets\Icons\fog.png</PackagePath>
+      <Modified>2018-06-19T06:04:03.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\lightning.png">
+      <PackagePath>Assets\Icons\lightning.png</PackagePath>
+      <Modified>2018-06-19T04:17:11.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\night.png">
+      <PackagePath>Assets\Icons\night.png</PackagePath>
+      <Modified>2018-06-19T04:17:11.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\partly-cloudy-night.png">
+      <PackagePath>Assets\Icons\partly-cloudy-night.png</PackagePath>
+      <Modified>2018-06-19T06:00:05.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\partly-cloudy.png">
+      <PackagePath>Assets\Icons\partly-cloudy.png</PackagePath>
+      <Modified>2018-06-19T05:58:52.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\rain.png">
+      <PackagePath>Assets\Icons\rain.png</PackagePath>
+      <Modified>2018-06-19T04:17:11.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\sleet.png">
+      <PackagePath>Assets\Icons\sleet.png</PackagePath>
+      <Modified>2018-06-19T06:01:42.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\snow.png">
+      <PackagePath>Assets\Icons\snow.png</PackagePath>
+      <Modified>2018-06-19T06:02:15.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\sunny.png">
+      <PackagePath>Assets\Icons\sunny.png</PackagePath>
+      <Modified>2018-06-19T04:17:11.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\Icons\windy.png">
+      <PackagePath>Assets\Icons\windy.png</PackagePath>
+      <Modified>2018-06-19T06:03:20.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -545,9 +589,13 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-14T00:34:55.024</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-06-18T15:27:01.168</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\IoT.xr.xml">
       <PackagePath>IoT.xr.xml</PackagePath>
-      <Modified>2018-06-18T18:18:39.156</Modified>
+      <Modified>2018-06-19T05:16:08.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -556,11 +604,11 @@
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-18T21:11:07.442</Modified>
+      <Modified>2018-06-19T06:25:53.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Core\IoT.exe">
       <PackagePath>IoT.exe</PackagePath>
-      <Modified>2018-06-18T21:11:07.767</Modified>
+      <Modified>2018-06-19T06:25:53.765</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
