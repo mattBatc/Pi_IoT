@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-19T06:27:32.347</Modified>
+      <Modified>2018-06-19T06:55:54.423</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\IoT.exe">
       <PackagePath>entrypoint\IoT.exe</PackagePath>
-      <Modified>2018-06-19T06:27:31.795</Modified>
+      <Modified>2018-06-19T06:55:53.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\.nuget\packages\darkskyapi\3.3.0\lib\netstandard1.1\DarkSkyApi.dll">
       <PackagePath>DarkSkyApi.dll</PackagePath>
@@ -604,11 +604,11 @@
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-19T06:27:32.192</Modified>
+      <Modified>2018-06-19T06:55:54.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Core\IoT.exe">
       <PackagePath>IoT.exe</PackagePath>
-      <Modified>2018-06-19T06:27:32.344</Modified>
+      <Modified>2018-06-19T06:55:54.421</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

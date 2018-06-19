@@ -1,28 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+﻿using DarkSkyApi;
+using DarkSkyApi.Models;
+using System;
+using System.Globalization;
+using System.Threading;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using IoT.Factory;
-using System.Threading.Tasks;
-using Windows.Storage.Streams;
 using Windows.UI.Xaml.Media.Imaging;
-using DarkSkyApi.Models;
-using DarkSkyApi;
 
 namespace IoT
 {
     //TODO Add forecast functionality
-    //TODO Add weather icons based off weather ID, HTML page in Programming folder
+    //TODO Make background change with weather
     public sealed partial class MainPage : Page
     {
         public MainPage()
@@ -30,6 +18,11 @@ namespace IoT
             this.InitializeComponent();
             SetWeather();
             SetWelcome();
+            DispatcherTimer Timer = new DispatcherTimer();
+            DataContext = this;
+            Timer.Tick += Timer_Tick;
+            Timer.Interval = new TimeSpan(0, 0, 1);
+            Timer.Start();
         }
 
        private async void SetWeather()
@@ -45,6 +38,7 @@ namespace IoT
             BitmapImage bitmapImage = new BitmapImage();
             Uri uri;
 
+            //Switch to determine weather icon
             switch (myWeather.Currently.Icon)
             {
                 case "clear-day":
@@ -117,8 +111,14 @@ namespace IoT
         {
             DateTime date = DateTime.Today;
             WelDate.Text = "Hello user, today is a " + (date.DayOfWeek.ToString());
+            string monthName = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(date.Month);
+            Date.Text = monthName +" " + date.Day.ToString() +" , " +date.Year.ToString();
+
         }
 
-      
+      private void Timer_Tick(object sender, object e)
+        {
+            Clock.Text = DateTime.Now.ToString("h:mm:ss tt");
+        }
     }
 }

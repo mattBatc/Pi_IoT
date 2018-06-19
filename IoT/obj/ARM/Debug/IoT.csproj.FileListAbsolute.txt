@@ -8,6 +8,7 @@ E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\AppxManifest.xml
 E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Core\AppxManifest.xml
 E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Core\IoT.exe
 E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\IoT.build.appxrecipe
+E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\DarkSkyApi.dll
 E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\Microsoft.CSharp.dll
 E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\System.ComponentModel.DataAnnotations.dll
 E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\System.Core.dll
@@ -211,4 +212,3 @@ E:\Documents\Programming\IOT\IoT\IoT\obj\ARM\Debug\qualifiers.txt.intermediate
 E:\Documents\Programming\IOT\IoT\IoT\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Documents\Programming\IOT\IoT\IoT\obj\ARM\Debug\ProjectArchitectures.txt
 E:\Documents\Programming\IOT\IoT\IoT\obj\ARM\Debug\IoT.csprojResolveAssemblyReference.cache
-E:\Documents\Programming\IOT\IoT\IoT\bin\ARM\Debug\DarkSkyApi.dll
