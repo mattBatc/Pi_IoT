@@ -9,12 +9,11 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Dark">
         <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
-            <TextBlock x:ConnectionId='4' x:Name="WelDate" RequestedTheme="Default" FontFamily="HelveticaNeue" FontSize="24" />
+            <TextBlock x:ConnectionId='3' x:Name="WelDate" RequestedTheme="Default" FontFamily="HelveticaNeue" FontSize="24" Margin="0,15,0,0" />
             
         </StackPanel>
         <TextBlock x:ConnectionId='1' x:Name="RightTemp" RequestedTheme="Default" FontFamily="HelveticaNeue" FontSize="60" Height="200" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,80,0,0" />
         <Image x:ConnectionId='2' x:Name="WeatherIcon" HorizontalAlignment="Right" Height="150" VerticalAlignment="Top" Width="150" Margin="0,60,225,0" Source="uri"/>
-        <TextBlock x:ConnectionId='3' x:Name="testing" HorizontalAlignment="Left" Height="369" Margin="225,417,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="1161"/>
 
     </Grid>
 </Page>
