@@ -14,24 +14,31 @@ namespace IoT
     public sealed partial class MainPage : Page
     {
         public MainPage()
-        { 
+        {
             this.InitializeComponent();
             SetWeather();
             SetWelcome();
+            SetTimer();
+        }
+
+        public void SetTimer()
+        {
+            //Sets up the timer to display clock
             DispatcherTimer Timer = new DispatcherTimer();
             DataContext = this;
             Timer.Tick += Timer_Tick;
             Timer.Interval = new TimeSpan(0, 0, 1);
             Timer.Start();
+
         }
 
-       private async void SetWeather()
+        private async void SetWeather()
         {
             //Getting Weather information
             var client = new DarkSkyService("31f7fea674b8a860e4ca1094783c554b");
             Forecast myWeather = await client.GetWeatherDataAsync(42.828422, -73.733340);
-            int temperature =(int) Math.Round( myWeather.Currently.Temperature);
-            RightTemp.Text = temperature.ToString()+"°F";
+            int temperature = (int)Math.Round(myWeather.Currently.Temperature);
+            RightTemp.Text = temperature.ToString() + "°F";
 
             //Setting Weather Icon based off conditions
             Image img = new Image();
@@ -101,23 +108,21 @@ namespace IoT
                     WeatherIcon.Source = bitmapImage;
                     break;
             }
-
-
-            
-           
         }
 
         public void SetWelcome()
         {
+            //Gets time and date to display to user
             DateTime date = DateTime.Today;
             WelDate.Text = "Hello user, today is a " + (date.DayOfWeek.ToString());
             string monthName = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(date.Month);
-            Date.Text = monthName +" " + date.Day.ToString() +" , " +date.Year.ToString();
+            Date.Text = monthName + " " + date.Day.ToString() + " , " + date.Year.ToString();
 
         }
 
-      private void Timer_Tick(object sender, object e)
+        private void Timer_Tick(object sender, object e)
         {
+            //Gets current time to push to display
             Clock.Text = DateTime.Now.ToString("h:mm:ss tt");
         }
     }
