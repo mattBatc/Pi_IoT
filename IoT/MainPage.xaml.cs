@@ -13,6 +13,8 @@ namespace IoT
     //TODO Make background change with weather
     public sealed partial class MainPage : Page
     {
+
+        int timer;
         public MainPage()
         {
             this.InitializeComponent();
@@ -124,6 +126,20 @@ namespace IoT
         {
             //Gets current time to push to display
             Clock.Text = DateTime.Now.ToString("h:mm:ss tt");
+            timer++;
+            if (timer == 3600)
+            {
+                //checks every hour for an update to the date
+                SetWelcome();
+                timer = 0;
+            }
+
+            else if (timer == 300)
+            {
+                //checks every 5 minutes for an update of the weather
+                SetWeather();
+                timer = 0;
+            }
         }
     }
 }
